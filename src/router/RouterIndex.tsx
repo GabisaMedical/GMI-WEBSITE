@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
-import LayoutBase from '../layouts/BaseLayout'
+import BaseLayout from '../layouts/BaseLayout'
 import routes from './routes'
 
 
@@ -15,9 +15,9 @@ function RouterIndex () {
             key={route.name} 
             path={route.path} 
             element={
-              <LayoutBase>
+              <BaseLayout>
                 <route.element />
-              </LayoutBase>
+              </BaseLayout>
             }
           />
         ))}
