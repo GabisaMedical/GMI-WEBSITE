@@ -11,8 +11,13 @@
 
 body {
   height: 100%;
+  padding: 1rem;
   background-color: var(--background-color);
   transition: width 0.4 ease, height 0.3s ease;
+  
+  @media @tab-md {
+    pad: 0.625rem;
+  }
 }
 
 // Scrollbar

@@ -1,5 +1,6 @@
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react-swc'
 import { defineConfig } from 'vite'
+import svgr from 'vite-plugin-svgr'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -7,7 +8,7 @@ export default defineConfig({
     port: 4000,
     host: true
   },
-  plugins: [react()],
+  plugins: [react(), svgr()],
   css: {
     preprocessorOptions: {
       less: {
