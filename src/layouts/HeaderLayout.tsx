@@ -12,7 +12,10 @@ function LayoutHeader() {
       </Col>
 
       <Col xxl={10} xl={10} lg={10} md={24} sm={24} xs={24}>
-        <Input addonAfter={<SearchOutlined />} />
+        <Input 
+          placeholder='O que deseja procurar?' 
+          addonAfter={<SearchOutlined />} 
+        />
       </Col>
 
       <Col xxl={6} xl={6} lg={6} md={24} sm={24} xs={24}>

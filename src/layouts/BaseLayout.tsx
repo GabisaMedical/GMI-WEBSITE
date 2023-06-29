@@ -1,21 +1,24 @@
 import { Layout } from 'antd'
 import React from 'react'
 
-import LayoutHeader from './LayoutHeader'
+import FooterLayout from './FooterLayout'
+import LayoutHeader from './HeaderLayout'
 
 interface IBaseLayout {
   children: React.ReactNode
 }
 
-function LayoutBase({ children }: IBaseLayout) {
+function BaseLayout({ children }: IBaseLayout) {
   return (
     <Layout>
       <LayoutHeader />
 
       {children}
+
+      <FooterLayout />
  
     </Layout>
   )
 }
 
-export default LayoutBase
+export default BaseLayout
