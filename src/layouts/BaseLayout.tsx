@@ -10,10 +10,15 @@ interface IBaseLayout {
 
 function BaseLayout({ children }: IBaseLayout) {
   return (
-    <Layout>
+    <Layout className='base-layout'>
       <LayoutHeader />
 
-      {children}
+      <section className='base-layout__main-content'>
+
+        <main className='base-layout__content'>
+          {children}
+        </main>
+      </section>
 
       <FooterLayout />
  

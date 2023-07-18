@@ -1,5 +1,14 @@
 {
-  "translations": {
-    "specificKey": "Valor Traduzido"
+  "languages": {
+    "portuguese": "Português",
+    "english": "Inglês",
+    "spanish": "Espanhol"
+  },
+  "menu": {
+    "company": "empresa",
+    "products": "produtos",
+    "differentials": "diferenciais",
+    "news": "novidades",
+    "contact": "contato"
   }
 }

@@ -11,6 +11,7 @@ function App() {
         algorithm: theme.defaultAlgorithm,
         token: {
           colorPrimary: 'var(--primary-color)',
+          colorBgContainer: 'var(--card-color)',
           colorBgLayout: 'var(--background-color)',
           colorText: 'var(--text-color)',
           colorTextPlaceholder: 'var(--text-color-opaque)',

@@ -6,7 +6,6 @@ import routes from './routes'
 
 
 function RouterIndex () {
-  
   return (
     <Router>
       <Routes>
