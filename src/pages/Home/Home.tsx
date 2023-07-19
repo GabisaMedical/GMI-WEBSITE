@@ -1,12 +1,14 @@
 import { Carousel } from 'antd'
 import React from 'react'
 
+import { bannerHome } from '../../assets'
+
 function Home() {
  
   return (
-    <Carousel effect='fade' autoplay dotPosition='bottom'>
+    <Carousel className='home' effect='fade' autoplay dotPosition='bottom'>
       <div>
-        <h3>Teste</h3>
+        <img src={bannerHome} className='home__banner' alt='Banner_Principal_GMI' />
       </div>
 
       <div>
